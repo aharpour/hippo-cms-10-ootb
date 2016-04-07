@@ -1,0 +1,39 @@
+<'hippo'='http://www.onehippo.org/jcr/hippo/nt/2.0.4'>
+<'hippostd'='http://www.onehippo.org/jcr/hippostd/nt/2.0'>
+<'hippostdpubwf'='http://www.onehippo.org/jcr/hippostdpubwf/nt/1.0'>
+<'hippotranslation'='http://www.onehippo.org/jcr/hippotranslation/nt/1.0'>
+<'ootb'='http://www.onehippo.org/ootb/nt/1.0'>
+
+[ootb:account] > hippo:compound, hippostd:relaxed
+  orderable
+
+[ootb:basedocument] > hippo:document, hippostd:publishableSummary, hippostdpubwf:document
+  orderable
+
+[ootb:author] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
+  orderable
+
+[ootb:bannerdocument] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
+  orderable
+
+[ootb:blogpost] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
+  orderable
+
+[ootb:contentdocument] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
+  orderable
+
+[ootb:eventsdocument] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
+  orderable
+
+[ootb:faqitem] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
+  orderable
+
+[ootb:faqlist] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
+  orderable
+
+[ootb:newsdocument] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
+  orderable
+
+[ootb:video] > hippostd:relaxed, hippotranslation:translated, ootb:basedocument
+  orderable
+
